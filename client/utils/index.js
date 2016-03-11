@@ -9,3 +9,7 @@ export function createReducer(initialState, handlers) {
     }
   }
 }
+
+export function merge(dest, source) {
+  return Object.assign({}, dest, source)
+}
